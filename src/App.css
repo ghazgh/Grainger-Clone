@@ -1,0 +1,77 @@
+/* Theme CSS  */
+
+.custom-text-white:hover {
+    color: white;
+}
+.theme_btn{
+    color:white;
+    background-color: #98191A;
+}
+.theme_text{
+    color: #00739E !important;
+}
+.gray_background{
+    background-color: #EEEEEE;
+}
+.text_xss{
+    font-size: 12px;
+}
+
+
+
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+  }
+  
+  
+  .popup {
+    /* Update the styles for the popup */
+    background-color: #fff;
+    padding: 40px; /* Increase the padding for more space */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    max-width: 550px; /* Set a maximum width for the popup */
+    width: 100%;
+  }
+  .popup form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Increase the margin for form elements */
+  }
+  .popup label,
+  .popup input,
+  .popup button {
+    margin-bottom: 10px;
+  }
+
+
+
+@media only screen and (max-width: 992px) {
+    .show_1{
+        margin-top: 07px;
+        min-height: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .show_1{
+        min-height: 100px;
+    }
+  }
+  
+@media only screen and (max-width: 768px) {
+    .only_1{
+    width: 100% !important;
+    margin-top:5px ;
+    }
+  }
