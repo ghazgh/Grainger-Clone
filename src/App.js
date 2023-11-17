@@ -12,13 +12,14 @@ import ProductDescription from './Pages/ProductDescription';
 import ProductBuying from './Pages/ProductBuying';
 import InsertUrl from './Pages/InsertUrl';
 import UrlPage from './Pages/UrlPage';
+import Register from './Pages/Register';
 function App() {
   return (
  <>
  <Routes>
   <Route path='/' element={<Home/>}></Route>
   <Route path='/SignUp' element={<SignUp/>}></Route>
-  <Route path='/Register' element={<Home/>}></Route>
+  <Route path='/Register' element={<Register/>}></Route>
   <Route path='/CartPage' element={<EmptyCart/>}></Route>
   <Route path='/AllProductCategories' element={<ALLProductCatogiries/>}></Route>
   <Route path='/Help' element={<Help/>}></Route>
